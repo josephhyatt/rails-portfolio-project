@@ -22,9 +22,22 @@ class EventsController < ApplicationController
   def index
     @events = Event.all
   end
+
+  def edit
+    @event = Event.find(params[:id])
+  end
   
-
-
+  def update
+    @event = Event.find(params[:id])
+    if @event.update(event_params)
+      flash[:notice] = "Event updated!"
+      redirect_to @event
+    else
+      flash.now[:alert] = "Event did not update!"
+      render "edit"
+    end
+  end
+  
   private 
 
   def event_params 
