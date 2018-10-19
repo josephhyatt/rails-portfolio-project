@@ -6,18 +6,23 @@ class EventsController < ApplicationController
 
   def create 
     @event = Event.new(event_params)
-    # if you save the event, send out flash message and send to events page
     if @event.save
-      # flash creates notification request
       flash[:notice] = "Event successfully created!"
       redirect_to @event
     else
-      # if event can't save, send out flash message and
-      # flash.now doesn't need redirect
       flash.now[:alert] = "Event wasn't created"
       render "new"
     end
   end
+
+  def show
+    @event = Event.find(params[:id])
+  end
+
+  def index
+    @events = Event.all
+  end
+  
 
 
   private 
