@@ -1,6 +1,5 @@
 <h1>Edit Event</h1>
 
-<!-- edit form that fetches the instance variable @event from the eventsController -->
 <%= form_for(@event) do |f|  %>
   <div>
     <%= f.label :title %>
@@ -31,6 +30,6 @@
     <%= f.label :location %>
     <%= f.text_field :location %>
   </div>  
-  
+
   <%= f.submit %>
 <% end %>
