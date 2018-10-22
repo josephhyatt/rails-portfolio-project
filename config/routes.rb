@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
-  #defines route to the 7 restful actions in eventsController
+  root 'events#index'
+
   resources :events
 end
