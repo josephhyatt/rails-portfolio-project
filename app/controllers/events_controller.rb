@@ -1,3 +1,5 @@
+require 'pry'
+
 class EventsController < ApplicationController
 
   def index
