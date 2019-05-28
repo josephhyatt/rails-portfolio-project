@@ -1,24 +1,6 @@
-# README
+This is a past Portfolio of mine built using Ruby on Rails, JavaScript, jQuery, and Bootstrap. I added a video background, full syntax highlighting, and font awesome icons. Being my previous portfolio I have uploaded it to Heroku.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* License Up - Create a license quickly for a given name.
+* Devise - Manages user authentication.
+* Bootstrap - For developing responsive, mobile-first projects.
+* Markdown Syntax - A plain text formatting syntax aimed at making writing for the internet easier.
