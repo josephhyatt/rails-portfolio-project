@@ -2,5 +2,5 @@ This is a past Portfolio of mine built using Ruby on Rails, JavaScript, jQuery, 
 
 * License Up - Create a license quickly for a given name.
 * Devise - Manages user authentication.
-* Bootstrap - For developing responsive, mobile-first projects.
+* Bootstrap - For developing responsive, mobile-first projects. 
 * Markdown Syntax - A plain text formatting syntax aimed at making writing for the internet easier.
