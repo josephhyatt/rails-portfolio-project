@@ -4,7 +4,7 @@ This is a past Portfolio of mine built using Ruby on Rails, JavaScript, jQuery, 
 
 ## Getting Started
 
-* First clone the repository `git clone https://github.com/josephhyatt/discussion_board.git`
+* First clone the repository `https://github.com/josephhyatt/rails-portfolio-project.git`
 * Open the project in your `terminal` and type `bundle install`
 * Lastly run `rails server` to get the Rails surver up and running and head over to `localhost:3000`
 
